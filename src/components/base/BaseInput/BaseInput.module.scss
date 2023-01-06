@@ -1,0 +1,8 @@
+.BaseInput {
+  @apply shadow-gray-100 h-full w-full leading-none bg-white-blue p-4 placeholder:font-light placeholder:text-gray outline-none border border-solid border-transparent mb-4;
+}
+
+.BaseInput::-webkit-outer-spin-button,
+.BaseInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

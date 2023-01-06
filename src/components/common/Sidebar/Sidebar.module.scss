@@ -1,0 +1,7 @@
+.Sidebar {
+  @apply fixed top-0 right-0 bottom-0 translate-x-full transition-all w-full max-w-xs shadow-gray-100 py-16 px-4 bg-white;
+}
+
+.close {
+  @apply absolute top-4 right-4 cursor-pointer;
+}
