@@ -39,8 +39,8 @@ const Todos = observer(() => {
 
     return (
         <>
-            <Filter/>
             <div className={"py-8"}>
+                <Filter/>
                 <div className={"flex justify-center"}>
                     <button disabled={todo.loading} className={"!bg-gray-100 !text-dark max-w-xs mx-auto mb-8"}
                             onClick={fetchTodos}>
